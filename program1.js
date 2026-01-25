@@ -22,3 +22,7 @@
 
 // Example output (for name = Alex, age = 25):
 // Hello, my name is Alex and I am 25 years old.
+
+const name="Saurabh"
+const age=24
+console.log(`Hello, my name is ${name} and I am ${age} year old`)
