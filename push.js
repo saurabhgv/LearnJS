@@ -28,6 +28,5 @@ class LinkedList{
         return this
     }
 }
-
 let myObj=new LinkedList(7)
 myObj.push(4)
