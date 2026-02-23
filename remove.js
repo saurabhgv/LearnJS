@@ -136,7 +136,7 @@ class LinkedList {
 
     remove(index){
         if(index<0)return null
-        if(index<0 || index>=this.length) return false
+        if(index<0 || index>=this.length) return undefined
         if (!this.head) return false
         if(index===this.length-1)return this.pop()
         if(index==0) return this.shift()
