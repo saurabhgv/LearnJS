@@ -135,6 +135,7 @@ class LinkedList {
     }
 
     remove(index){
+        if(index<0)return null
         if(index<0 || index>=this.length) return false
         if (!this.head) return false
         if(index===this.length-1)return this.pop()
@@ -143,6 +144,7 @@ class LinkedList {
         const temp=prev.next
         prev.next=temp.next
         temp.next=null
+        this.length--
         return temp
     }
 
